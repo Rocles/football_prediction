@@ -1,0 +1,55 @@
+# Fichiers et répertoires générés par l'environnement virtuel Python
+venv/
+env/
+ENV/
+.venv/
+.env
+env.bak/
+env_backup/
+
+# Fichiers de configuration de l'IDE
+.vscode/
+.idea/
+
+# Fichiers de log
+*.log
+
+# Fichiers de base de données
+*.sqlite3
+
+# Fichiers de données volumineux
+Data/*.csv
+
+# Autres fichiers spécifiques
+*.dll
+*.pyd
+
+# Dépendances Python
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+
+# Configuration du système
+.DS_Store
+Thumbs.db
+
+# Fichiers LFS (Git Large File Storage)
+*.dll filter=lfs diff=lfs merge=lfs -text
+*.pyd filter=lfs diff=lfs merge=lfs -text
+Data/*.csv filter=lfs diff=lfs merge=lfs -text
+
+# Pytest cache
+.pytest_cache/
+
+# Profiling data
+.prof
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
